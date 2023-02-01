@@ -42,7 +42,7 @@ const thirdProtagonists = [
 ];
 const thirdDisponibleOnStreaming = true;
 
-const fourthTitle = "Raw";
+const fourthTitle = "Grave";
 const fourthDirector = "Julia Ducournau";
 const fourthSynopsis =
   "Uma jovem vegetariana é obrigada a comer carne crua em um trote de faculdade e começa a ser atormentada por uma vontade incontrolável de devorar carne humana.";
@@ -210,7 +210,7 @@ movies.push({
   ],
   disponivelEmStreaming: true,
   imagem:
-    "https://images.euassisti.com.br/unsafe/300x450/images/6281fd051420a1f50c4fdbd8_0.webp",
+    "https://m.media-amazon.com/images/M/MV5BMzUyODU2NDUtYmFmMy00OTY2LWI3MDgtMjhiMGVjZDE2YjE4XkEyXkFqcGdeQXVyODU1OTc0MzI@._V1_.jpg",
 });
 
 // semana 6 - 1.
@@ -394,7 +394,7 @@ function buscaFilmes() {
     <input type="text" id="campo" onkeyup="exibeValorDoCampo(event)" placeholder="Pesquise aqui"/>
     <button id="botao" type="button" onclick="buscaFilmes()" >Buscar</button>
     </section>
-    <section id="filme">
+    <section id="movie">
     <ul>
     <img src="${filmeRetornado.imagem}" width="200px"/>
     <li><b>${filmeRetornado.titulo}</b></li>

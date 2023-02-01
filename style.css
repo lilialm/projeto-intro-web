@@ -79,10 +79,55 @@ li {
     border-radius: 5px;
     flex-direction: column;
     gap: 5px;
-    background: linear-gradient(90deg, rgba(44,52,64,1) 42%, rgba(10,10,19,1) 65%);
+    background:  rgba(44,52,64,1) 42%;
    
 }
 
+#movie {
+    height: 550px;
+    /* background-color: #2c3440; */
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 5px;
+    background:  rgba(44,52,64,1) 42%;
+}
+
+#filme:hover {
+    background:   #3094bd;
+    color: black
+
+}
+
+#filme2:hover {
+    background:   #D9D7C5;
+    color: black
+}
+
+#filme3:hover {
+    background: #A68C7C;
+    color: black
+}
+
+#filme4:hover {
+    background: #F2D027;
+    color: black;
+}
+
+#filme5:hover {
+    background: #733A2D;
+    color: black;
+}
+
+#filme6:hover {
+    background: #2B4C8C;
+    color: black;
+}
 
 footer{
     background-color: #2c3440;
